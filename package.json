@@ -1,0 +1,37 @@
+{
+  "name": "@stoplight/gatsby-starter-elements-dev-portal",
+  "private": true,
+  "description": "A Gatsby Starter for Stoplight Elements Dev Portal",
+  "version": "1.0.0",
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "@stoplight/elements-dev-portal": "^1.0.0",
+    "canvas": "^2.8.0",
+    "gatsby": "^3.8.1",
+    "jsdom": "^16.6.0",
+    "postcss": "^8.3.5",
+    "process": "^0.11.10",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "util": "^0.12.4"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
